@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <defs>
+    <!-- Gear template macro -->
+    <g id="gear">
+      <circle cx="0" cy="0" r="26" fill="#111827"/>
+      <circle cx="0" cy="0" r="10" fill="#FFFFFF"/>
+      <!-- Gear Teeth -->
+      <path d="M -6, -34 L 6, -34 L 5, -24 L -5, -24 Z" fill="#111827"/>
+      <path d="M -6, 34 L 6, 34 L 5, 24 L -5, 24 Z" fill="#111827"/>
+      <path d="M -34, -6 L -34, 6 L -24, 5 L -24, -5 Z" fill="#111827"/>
+      <path d="M 34, -6 L 34, 6 L 24, 5 L 24, -5 Z" fill="#111827"/>
+      <g transform="rotate(45)">
+        <path d="M -6, -34 L 6, -34 L 5, -24 L -5, -24 Z" fill="#111827"/>
+        <path d="M -6, 34 L 6, 34 L 5, 24 L -5, 24 Z" fill="#111827"/>
+        <path d="M -34, -6 L -34, 6 L -24, 5 L -24, -5 Z" fill="#111827"/>
+        <path d="M 34, -6 L 34, 6 L 24, 5 L 24, -5 Z" fill="#111827"/>
+      </g>
+    </g>
+  </defs>
+
+  <g transform="translate(300, 300)">
+    <!-- Arched Text: THINK IT! BELIVE IT! -->
+    <path id="curveGears" d="M -160, -110 Q 0, -220 160, -110" fill="transparent"/>
+    <text font-family="'Plus Jakarta Sans', 'Arial Black', Impact, sans-serif" font-weight="900" font-size="28" fill="#111827" letter-spacing="2" text-anchor="middle">
+      <textPath href="#curveGears" startOffset="50%" text-anchor="middle">
+        THINK IT! BELIVE IT!
+      </textPath>
+    </text>
+
+    <!-- Cluster of Interlocking Gears -->
+    <!-- Large Central Gear -->
+    <g transform="translate(-15, -95) scale(1.7)">
+      <use href="#gear"/>
+    </g>
+    <!-- Right Medium Gear -->
+    <g transform="translate(95, -80) scale(1.35)">
+      <use href="#gear"/>
+    </g>
+    <!-- Left Medium Gear -->
+    <g transform="translate(-125, -75) scale(1.3)">
+      <use href="#gear"/>
+    </g>
+    <!-- Small Top Right Gear -->
+    <g transform="translate(115, -145) scale(0.85)">
+      <use href="#gear"/>
+    </g>
+    <!-- Small Top Left Gear -->
+    <g transform="translate(-180, -95) scale(0.85)">
+      <use href="#gear"/>
+    </g>
+    <!-- Bottom Left Large Gear partially behind truck -->
+    <g transform="translate(-155, 35) scale(2.0)">
+      <use href="#gear"/>
+    </g>
+
+    <!-- Cyan Cargo Truck & Freight Container -->
+    <g transform="translate(35, 30)">
+      <!-- Cargo Body (Cyan slats) -->
+      <rect x="-100" y="-30" width="185" height="65" fill="#00A8C6" rx="4"/>
+      <!-- Cargo Slats lines in white -->
+      <line x1="-100" y1="-12" x2="85" y2="-12" stroke="#FFFFFF" stroke-width="4"/>
+      <line x1="-100" y1="8" x2="85" y2="8" stroke="#FFFFFF" stroke-width="4"/>
+      <rect x="-65" y="-34" width="7" height="72" fill="#00A8C6"/>
+      <rect x="50" y="-34" width="7" height="72" fill="#00A8C6"/>
+
+      <!-- "STM" on Truck Container -->
+      <text x="-8" y="7" font-family="'Plus Jakarta Sans', Impact, 'Arial Black', sans-serif" font-weight="900" font-size="34" fill="#111827" letter-spacing="3" text-anchor="middle">
+        STM
+      </text>
+
+      <!-- Truck Cabin on Right -->
+      <path d="M 85, -5 L 125, -5 L 132, 10 L 165, 12 L 165, 45 L 85, 45 Z" fill="#00A8C6"/>
+      <!-- Windshield Window in white -->
+      <polygon points="95,0 120,0 127,15 95,15" fill="#FFFFFF"/>
+      <rect x="156" y="22" width="6" height="10" fill="#FFFFFF" rx="1"/>
+
+      <!-- Truck Wheels -->
+      <!-- Front wheel -->
+      <circle cx="145" cy="50" r="14" fill="#00A8C6"/>
+      <circle cx="145" cy="50" r="8" fill="#FFFFFF"/>
+      <!-- Rear wheels under container -->
+      <circle cx="45" cy="50" r="14" fill="#00A8C6"/>
+      <circle cx="45" cy="50" r="8" fill="#FFFFFF"/>
+      <circle cx="-55" cy="50" r="14" fill="#00A8C6"/>
+      <circle cx="-55" cy="50" r="8" fill="#FFFFFF"/>
+      <circle cx="-25" cy="50" r="14" fill="#00A8C6"/>
+      <circle cx="-25" cy="50" r="8" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Bottom Stencil / Industrial Text: TRANSPORTATION -->
+    <text x="0" y="125" font-family="'Plus Jakarta Sans', Impact, 'Arial Black', sans-serif" font-weight="900" font-size="36" fill="#9CA3AF" letter-spacing="4" text-anchor="middle">
+      TRANSPORTATION
+    </text>
+  </g>
+</svg>

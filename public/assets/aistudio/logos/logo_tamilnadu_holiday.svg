@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="100%" height="100%">
+  <rect width="700" height="700" fill="#FFFFFF"/>
+  <defs>
+    <!-- Galaxy texture gradient for the globe -->
+    <radialGradient id="globeSpace" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B1C54"/>
+      <stop offset="60%" stop-color="#1E1B4B"/>
+      <stop offset="85%" stop-color="#4C1D95"/>
+      <stop offset="100%" stop-color="#6B21A8"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(350, 350)">
+    <!-- Central Globe Circle -->
+    <circle cx="0" cy="0" r="170" fill="url(#globeSpace)" stroke="#E2E8F0" stroke-width="2"/>
+    
+    <!-- Continents silhouette overlay in soft earth tones -->
+    <path d="M -90, -110 Q -60, -80 -70, -40 Q -100, 0 -60, 40 Q -30, 90 -40, 130 Q -80, 120 -120, 80 Q -150, 0 -130, -60 Z" fill="#9333EA" opacity="0.6"/>
+    <path d="M 10, -120 Q 80, -90 100, -30 Q 140, 20 80, 80 Q 30, 120 40, 150 Q -10, 140 -20, 90 Q 20, 30 10, -50 Z" fill="#A855F7" opacity="0.5"/>
+
+    <!-- World Famous Monuments Arranged Around Upper Hemisphere -->
+    <!-- Colosseum (Leftmost bottom) -->
+    <g transform="translate(-180, 40) scale(0.65)">
+      <rect x="-35" y="-35" width="70" height="45" fill="#334155" rx="3"/>
+      <!-- Arches -->
+      <path d="M -25, -20 A 5 5 0 0 1 -15, -20 V -5 H -25 Z" fill="#FFFFFF"/>
+      <path d="M -5, -20 A 5 5 0 0 1 5, -20 V -5 H -5 Z" fill="#FFFFFF"/>
+      <path d="M 15, -20 A 5 5 0 0 1 25, -20 V -5 H 15 Z" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Statue of Liberty (Upper Left) -->
+    <g transform="translate(-150, -85) scale(0.7)">
+      <path d="M 0, -50 L 5, -35 L 2, -10 L 10, 40 L -10, 40 L -2, -10 L -5, -35 Z" fill="#475569"/>
+      <!-- Torch in hand raised high -->
+      <line x1="5" y1="-25" x2="25" y2="-65" stroke="#475569" stroke-width="3.5"/>
+      <polygon points="25,-75 22,-65 28,-65" fill="#F59E0B"/>
+      <!-- Crown rays -->
+      <polygon points="0,-55 -8,-65 0,-50 8,-65" fill="#475569"/>
+    </g>
+
+    <!-- Thanjavur Brihadisvara Temple Gopuram Tower (Tamil Nadu Heritage) -->
+    <g transform="translate(-85, -165) scale(0.8)">
+      <polygon points="0,-60 -25,40 25,40" fill="#9A3412"/>
+      <line x1="-20" y1="20" x2="20" y2="20" stroke="#FDBA74" stroke-width="1.5"/>
+      <line x1="-15" y1="0" x2="15" y2="0" stroke="#FDBA74" stroke-width="1.5"/>
+      <line x1="-10" y1="-20" x2="10" y2="-20" stroke="#FDBA74" stroke-width="1.5"/>
+      <circle cx="0" cy="-62" r="4" fill="#F59E0B"/>
+    </g>
+
+    <!-- Eiffel Tower (Top Center) -->
+    <g transform="translate(-15, -205) scale(0.95)">
+      <path d="M 0, -70 L 2, -15 L 14, 45 L 8, 45 L 2, 0 L -2, 0 L -8, 45 L -14, 45 L -2, -15 Z" fill="#1E293B"/>
+      <rect x="-9" y="10" width="18" height="3" fill="#1E293B"/>
+      <rect x="-6" y="-15" width="12" height="3" fill="#1E293B"/>
+      <path d="M -8, 45 Q 0, 25 8, 45 Z" fill="none" stroke="#1E293B" stroke-width="2"/>
+    </g>
+
+    <!-- Leaning Tower of Pisa (Upper Right) -->
+    <g transform="translate(45, -170) rotate(14) scale(0.75)">
+      <rect x="-14" y="-55" width="28" height="95" fill="#64748B" rx="2"/>
+      <!-- Tier horizontal divisions -->
+      <line x1="-14" y1="-40" x2="14" y2="-40" stroke="#FFFFFF" stroke-width="2"/>
+      <line x1="-14" y1="-20" x2="14" y2="-20" stroke="#FFFFFF" stroke-width="2"/>
+      <line x1="-14" y1="0" x2="14" y2="0" stroke="#FFFFFF" stroke-width="2"/>
+      <line x1="-14" y1="20" x2="14" y2="20" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+
+    <!-- Mayan Pyramid / Chichen Itza (Right side) -->
+    <g transform="translate(110, -110) scale(0.7)">
+      <polygon points="0,-35 -40,30 40,30" fill="#78350F"/>
+      <polygon points="-8,-35 -12,30 12,30 8,-35" fill="#B45309"/>
+    </g>
+
+    <!-- Asian Pagoda Temple (Right lower) -->
+    <g transform="translate(170, -25) scale(0.7)">
+      <polygon points="-30,30 30,30 0,10" fill="#475569"/>
+      <polygon points="-25,10 25,10 0,-5" fill="#475569"/>
+      <polygon points="-20,-5 20,-5 0,-20" fill="#475569"/>
+    </g>
+
+    <!-- Airplane Flying Right -->
+    <g transform="translate(100, -15) rotate(-20) scale(0.9)">
+      <path d="M -30, 0 L 15, -3 L 25, 0 L 15, 3 L -30, 0 Z" fill="#F59E0B"/>
+      <polygon points="0,-2 -15,-20 -5,-20 10,-2" fill="#F59E0B"/>
+      <polygon points="0,2 -15,20 -5,20 10,2" fill="#F59E0B"/>
+      <polygon points="-25,-1 -30,-8 -22,-8 -20,-1" fill="#D97706"/>
+    </g>
+
+    <!-- Directional Wooden Signpost with Arrow Signs in Center -->
+    <g transform="translate(-15, -15)">
+      <!-- Central Wooden Post -->
+      <rect x="-6" y="-70" width="12" height="150" fill="#0D9488" rx="2"/>
+
+      <!-- Arrow 1: TRAVEL (Brown/Red pointing right) -->
+      <path d="M -50, -60 L 35, -60 L 55, -45 L 35, -30 L -50, -30 Z" fill="#991B1B" stroke="#7F1D1D" stroke-width="1.5"/>
+      <text x="-5" y="-40" font-family="'Plus Jakarta Sans', serif" font-weight="900" font-size="16" fill="#FEE2E2" letter-spacing="2" text-anchor="middle">
+        TRAVEL
+      </text>
+
+      <!-- Arrow 2: AROUND (Yellow pointing left) -->
+      <path d="M 45, -25 L -40, -25 L -60, -10 L -40, 5 L 45, 5 Z" fill="#FBBF24" stroke="#D97706" stroke-width="1.5"/>
+      <text x="-5" y="-5" font-family="'Plus Jakarta Sans', Impact, sans-serif" font-weight="900" font-size="16" fill="#111827" letter-spacing="2" text-anchor="middle">
+        AROUND
+      </text>
+
+      <!-- Arrow 3: THE (Coral pointing right) -->
+      <path d="M -45, 10 L 30, 10 L 48, 25 L 30, 40 L -45, 40 Z" fill="#DC2626" stroke="#B91C1C" stroke-width="1.5"/>
+      <text x="-5" y="30" font-family="'Plus Jakarta Sans', serif" font-weight="900" font-size="16" fill="#FEE2E2" letter-spacing="2" text-anchor="middle">
+        THE
+      </text>
+
+      <!-- Arrow 4: WORLD (Gold pointing left) -->
+      <path d="M 45, 45 L -40, 45 L -60, 60 L -40, 75 L 45, 75 Z" fill="#F59E0B" stroke="#B45309" stroke-width="1.5"/>
+      <text x="-5" y="65" font-family="'Plus Jakarta Sans', Impact, sans-serif" font-weight="900" font-size="16" fill="#111827" letter-spacing="2" text-anchor="middle">
+        WORLD
+      </text>
+
+      <!-- Traveler Figure with Orange Trolley Suitcase -->
+      <g transform="translate(-45, 45) scale(0.65)">
+        <circle cx="0" cy="-25" r="7" fill="#111827"/>
+        <rect x="-6" y="-17" width="12" height="25" fill="#3B82F6" rx="2"/>
+        <line x1="-3" y1="8" x2="-5" y2="28" stroke="#111827" stroke-width="4"/>
+        <line x1="3" y1="8" x2="6" y2="28" stroke="#111827" stroke-width="4"/>
+        <!-- Orange Suitcase with handle -->
+        <rect x="-24" y="2" width="14" height="24" fill="#F97316" rx="2"/>
+        <line x1="-17" y1="2" x2="-17" y2="-8" stroke="#111827" stroke-width="2"/>
+      </g>
+    </g>
+
+    <!-- Bottom Brand Title: TAMILNADU HOLIDAY -->
+    <g transform="translate(0, 195)">
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', Georgia, serif" font-weight="800" font-size="24" fill="#0F172A" letter-spacing="2" text-anchor="middle">
+        TAMILNADU HOLIDAY
+      </text>
+      <line x1="-120" y1="6" x2="120" y2="6" stroke="#0F172A" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

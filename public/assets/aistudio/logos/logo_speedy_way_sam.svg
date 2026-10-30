@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  
+  <g transform="translate(300, 300)">
+    <!-- Arched Text: SPEEDY WAY -->
+    <path id="curveTop" d="M -180, -90 Q 0, -180 180, -90" fill="transparent"/>
+    <text font-family="'Plus Jakarta Sans', Impact, 'Arial Black', sans-serif" font-weight="900" font-size="34" fill="#0B1220" letter-spacing="3" text-anchor="middle">
+      <textPath href="#curveTop" startOffset="50%" text-anchor="middle">
+        SPEEDY WAY
+      </textPath>
+    </text>
+
+    <!-- Eagle Emblem in Vibrant Red -->
+    <g transform="translate(0, -25)">
+      <!-- Left Wing -->
+      <path d="M 0, -35 C -45, -95 -125, -95 -220, -50 C -200, -25 -165, -5 -140, 10 C -125, -5 -90, -15 -70, -5 C -85, 15 -100, 35 -110, 55 C -90, 40 -65, 30 -45, 30 C -55, 45 -60, 65 -65, 80 C -45, 60 -25, 45 0, 45 Z" fill="#E11D2A"/>
+      
+      <!-- Right Wing -->
+      <path d="M 0, -35 C 45, -95 125, -95 220, -50 C 200, -25 165, -5 140, 10 C 125, -5 90, -15 70, -5 C 85, 15 100, 35 110, 55 C 90, 40 65, 30 45, 30 C 55, 45 60, 65 65, 80 C 45, 60 25, 45 0, 45 Z" fill="#E11D2A"/>
+      
+      <!-- Eagle Head (Facing Left) -->
+      <path d="M 0, -55 C -15, -60 -25, -45 -18, -35 C -25, -35 -30, -30 -32, -22 C -25, -20 -15, -25 -5, -20 C 5, -20 12, -28 12, -40 C 12, -50 5, -54 0, -55 Z" fill="#FFFFFF"/>
+      <path d="M -2, -53 C -13, -56 -22, -43 -16, -34 C -22, -34 -28, -30 -30, -23 C -23, -21 -14, -25 -5, -20 C 5, -20 10, -28 10, -38 C 10, -48 3, -52 -2, -53 Z" fill="#E11D2A"/>
+      <circle cx="-10" cy="-35" r="2.5" fill="#FFFFFF"/>
+      
+      <!-- Eagle Body & Tail -->
+      <path d="M -20, 20 L -35, 75 L -15, 85 L 0, 95 L 15, 85 L 35, 75 L 20, 20 Z" fill="#E11D2A"/>
+      <polygon points="0,50 -25,95 0,85 25,95" fill="#B91C1C"/>
+    </g>
+
+    <!-- SAM Bold Heavy Letters -->
+    <!-- 'S' on the left -->
+    <text x="-95" y="45" font-family="'Plus Jakarta Sans', 'Arial Black', Impact, sans-serif" font-weight="900" font-size="82" fill="#0B1220" text-anchor="middle">
+      S
+    </text>
+    
+    <!-- 'M' on the right -->
+    <text x="95" y="45" font-family="'Plus Jakarta Sans', 'Arial Black', Impact, sans-serif" font-weight="900" font-size="82" fill="#0B1220" text-anchor="middle">
+      M
+    </text>
+
+    <!-- Bottom Red Stylized: TRANSPORTATION -->
+    <text x="0" y="98" font-family="'Plus Jakarta Sans', 'Segoe UI', Impact, serif" font-weight="800" font-size="28" fill="#E11D2A" letter-spacing="4" text-anchor="middle">
+      TRANSPORTATION
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <rect width="500" height="500" fill="#FFFFFF"/>
+  <g transform="translate(250, 250)">
+    <!-- Crossed Fork and Knife Icon -->
+    <g transform="translate(0, -60) scale(1.4)">
+      <!-- Fork angled right -->
+      <g transform="rotate(45)">
+        <path d="M -2, 35 L 2, 35 L 2, -15 L -2, -15 Z" fill="#111827"/>
+        <path d="M -8, -15 L -8, -35 L -5, -35 L -5, -20 L -2, -20 L -2, -35 L 2, -35 L 2, -20 L 5, -20 L 5, -35 L 8, -35 L 8, -15 C 8, -5 -8, -5 -8, -15 Z" fill="#111827"/>
+      </g>
+      <!-- Knife angled left -->
+      <g transform="rotate(-45)">
+        <path d="M -2, 35 L 2, 35 L 2, -15 L -2, -15 Z" fill="#111827"/>
+        <path d="M -2, -15 C -2, -35 8, -38 8, -15 Z" fill="#111827"/>
+      </g>
+    </g>
+
+    <!-- Brand Typography: YAKAI YAZHISAI -->
+    <text x="0" y="55" font-family="'Plus Jakarta Sans', Impact, 'Arial Black', sans-serif" font-weight="900" font-size="44" fill="#111827" letter-spacing="4" text-anchor="middle">
+      YAKAI
+    </text>
+    <text x="0" y="105" font-family="'Plus Jakarta Sans', Impact, 'Arial Black', sans-serif" font-weight="900" font-size="44" fill="#111827" letter-spacing="4" text-anchor="middle">
+      YAZHISAI
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="14" fill="#6B7280" letter-spacing="2" text-anchor="middle">
+      TRADITIONAL ORGANIC FOODS
+    </text>
+  </g>
+</svg>
